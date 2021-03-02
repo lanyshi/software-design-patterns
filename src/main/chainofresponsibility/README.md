@@ -28,4 +28,4 @@ The following questions help to evaluate my implementation for the system.
   There are various situations where I use association and inheritance in the implementation to avoid duplication.
 
 # UML Diagram
-![UML](https://raw.githubusercontent.com/lanyshi/software-design-patterns/main/src/main/chainofresponisibility/uml.png)
+![UML](https://raw.githubusercontent.com/lanyshi/software-design-patterns/main/src/main/chainofresponsibility/uml.png)
