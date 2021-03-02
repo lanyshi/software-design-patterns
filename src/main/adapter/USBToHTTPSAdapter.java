@@ -4,7 +4,7 @@ package adapter;
  * An adapter that allows the connection between API server and external disk.
  * HTTPS connection being the adaptee.
  */
-public class USBToHTTPSAdapter implements CustomerData {
+public class USBToHTTPSAdapter implements CustomerDataOverUSB {
     private CustomerDataOverHTTPS customerDataOverHTTPS;
 
     public USBToHTTPSAdapter(CustomerDataOverHTTPS customerDataOverHTTPS) {
@@ -17,7 +17,7 @@ public class USBToHTTPSAdapter implements CustomerData {
     }
 
     @Override
-    public void getCustomer(CustomerID id) {
+    public void getCustomer_withUSBConnect(CustomerID id) {
         customerDataOverHTTPS.getCustomer_withHTTPSConnect(id);
     }
 

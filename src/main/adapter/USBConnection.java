@@ -3,7 +3,7 @@ package adapter;
 /**
  * USB connection that accesses customer data from external disk.
  */
-public class USBConnection implements CustomerData {
+public class USBConnection implements CustomerDataOverUSB {
 
     @Override
     public void printCustomer(CustomerID id) {
@@ -11,7 +11,7 @@ public class USBConnection implements CustomerData {
     }
 
     @Override
-    public void getCustomer(CustomerID id) {
+    public void getCustomer_withUSBConnect(CustomerID id) {
         System.out.println("Retrieving Customer " + id.print() + " via USB connection...");
     }
 
