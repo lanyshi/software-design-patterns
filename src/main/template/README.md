@@ -19,4 +19,4 @@ I refactor the program using the Template pattern, which better supplies the pur
 Doing so, I can lower the coupling within the application by deleting or re-writing classes and interface.
 
 ## UML Diagram
-![UML](https://raw.githubusercontent.com/lanyshi/software-design-patterns/main/src/main/template/template_UML.png)
+![UML](https://raw.githubusercontent.com/lanyshi/software-design-patterns/main/src/main/template/template_uml.png)
