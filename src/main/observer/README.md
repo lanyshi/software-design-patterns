@@ -9,7 +9,6 @@ In this assignment, you will implement a notification system to send notificatio
 requests to drivers. When a store gets a product delivery orders should be created at store and a
 delivery request should be broadcasted to all drivers.
 
-
 # Implementation Description
 * How flexible is your implementation, e.g., how you add or remove in future new drink types?
 
@@ -28,3 +27,6 @@ delivery request should be broadcasted to all drivers.
 * How you avoided duplicated code?
 
     * I have minimized hard coding and used for loops and shared methods for duplicated code.
+
+# UML Diagram
+![UML](https://raw.githubusercontent.com/lanyshi/software-design-patterns/main/src/main/observer/observer_UML.png)
