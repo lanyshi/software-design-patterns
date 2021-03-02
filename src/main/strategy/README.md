@@ -20,3 +20,5 @@ based on specific customer types.
 * How you avoided duplicated code?
     * I used composition and inheritance to avoid duplicated code.
   
+# UML Diagram
+![UML](https://raw.githubusercontent.com/lanyshi/software-design-patterns/main/src/main/strategy/strategy_UML.png)
