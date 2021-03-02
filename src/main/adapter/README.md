@@ -9,7 +9,8 @@ The old system access the customer data using USB connection to get the customer
 some binary files stored on external disk.
 The new system access the customer data using REST API over HTTPS connection to an external server.
 You can consider that the two systems have the following APIs.
-```interface CustomerDataOverUSB {
+```
+interface CustomerDataOverUSB {
    void printCustomer(CustomerID id);
    void getCustomer_withUSBConnect(CustomerID id);
 }
